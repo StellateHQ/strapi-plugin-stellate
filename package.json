@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-stellate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Strapi CMS plugin that purges content from Stellate",
   "strapi": {
     "name": "stellate",
