@@ -1,17 +1,17 @@
 {
   "name": "strapi-plugin-stellate",
   "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "description": "Strapi CMS plugin that purges content from Stellate",
   "strapi": {
     "name": "stellate",
-    "description": "Description of stellate plugin",
+    "description": "Strapi CMS plugin that purges content from Stellate",
     "kind": "plugin"
-  },
-  "dependencies": {
-    "@strapi/icons": "^1.4.0"
   },
   "devDependencies": {
     "typescript": "4.6.3"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "4.x.x"
   },
   "author": {
     "name": "A Strapi developer"
