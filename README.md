@@ -1,4 +1,4 @@
-# `strapi-plugin-stellate`
+# `strapi-plugin-stellate` (alpha)
 
 This plugin helps with using [Stellate](https://stellate.co) in front of a Strapi GraphQL API.
 
