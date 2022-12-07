@@ -36,7 +36,7 @@ function purge(strapi, typeName) {
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json",
-      Authorization: `Bearer ${purgingAPIToken}`,
+      'stellate-token': purgingAPIToken,
     },
     body: JSON.stringify({
       query: `mutation {
