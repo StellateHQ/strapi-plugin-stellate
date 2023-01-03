@@ -29,5 +29,6 @@
     "develop": "tsc -w",
     "build": "tsc"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": ["package.json", "README.md", "strapi-server.js", "tsconfig.json", "LICENSE.md", ".gitignore", "server", "dist"]
 }
