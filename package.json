@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-stellate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Strapi CMS plugin that purges content from Stellate",
   "strapi": {
     "name": "stellate",
@@ -30,5 +30,14 @@
     "build": "tsc"
   },
   "license": "MIT",
-  "files": ["package.json", "README.md", "strapi-server.js", "tsconfig.json", "LICENSE.md", ".gitignore", "server", "dist"]
+  "files": [
+    "package.json",
+    "README.md",
+    "strapi-server.js",
+    "tsconfig.json",
+    "LICENSE.md",
+    ".gitignore",
+    "server",
+    "dist"
+  ]
 }
